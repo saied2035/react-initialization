@@ -1,2 +1,2 @@
-const App = () => <h1>React App</h1>;
+const App = () => <h1 className="red">React App</h1>;
 export default App;
