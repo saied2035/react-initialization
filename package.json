@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest --watchAll --coverage",
     "build": "webpack --mode=production",
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --open",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

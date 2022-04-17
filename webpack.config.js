@@ -50,5 +50,6 @@ module.exports = {
   devServer: {
     static: './build',
     historyApiFallback: true,
+    port: 3000,
   },
 };
